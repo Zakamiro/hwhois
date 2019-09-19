@@ -10,6 +10,7 @@ $ hwhois [hostname]
 
 Example:
 $ hwhois gandi.net
+
 inetnum:        217.70.185.0 - 217.70.185.255
 
 netname:        GANDI-PUBNET25
