@@ -1,0 +1,2 @@
+#!/bin/bash
+host $1 | egrep " has address " | xargs whois $(awk '{print $4}') | egrep "(netn|NetN|descr|org-n|OrgN|NetR)"
